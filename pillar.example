@@ -199,3 +199,8 @@ collectd:
         - '^queue'
       ignore_exchange_regex:
         - '^exchange'
+    write_http:
+      - name: 'nodeName'
+        host: 192.168.1.12
+        port: 1234
+        format: JSON
